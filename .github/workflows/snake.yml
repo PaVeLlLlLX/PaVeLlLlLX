@@ -1,37 +1,54 @@
-name: Snake Game Animation
+name: Snake Animation
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
-  generate-snake:
+  snake:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Generate Snake Animation
-        uses: Platane/snk@master
-        id: snake-generator
+      - name: Setup directories
+        run: |
+          echo "Creating necessary directories..."
+          mkdir -p assets
+          ls -la
+          
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
           
-      - name: Push Snake Animation
+      - name: Verify files were created
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/
-          git commit -m "Update snake animation" || echo "No changes to commit"
-          git push
+          echo "Checking if files were created:"
+          ls -la assets/ || echo "No assets folder"
+          find . -name "*.svg" -type f | head -10
+          
+      - name: Commit files
+        if: always()
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Проверяем что есть что коммитить
+          if git status --porcelain | grep -q .; then
+            echo "Changes detected, committing..."
+            git add .
+            git commit -m "Update snake animation $(date)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
