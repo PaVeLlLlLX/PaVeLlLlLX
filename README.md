@@ -1,58 +1,40 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="Pavel Ivankov — Machine Learning Engineer" />
-</p>
-
-<h1 align="center">Hi, I'm Pavel 👋</h1>
-
-<p align="center">
-  <strong>Machine Learning Engineer at Alfa-Bank</strong><br />
-  Multimodal ML · Computer Vision · NLP
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero.png" />
+    <img src="assets/hero.gif" width="100%" alt="Pavel Ivankov — data science, ML systems, and side projects; an animated field of connected particles" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a> ·
-  <a href="#toolbox">Toolbox</a> ·
-  <a href="https://github.com/PaVeLlLlLX?tab=repositories">All repositories</a>
+  <strong>Data scientist who likes building the whole thing.</strong><br />
+  I enjoy the space between exploring messy data, training a model, and making something people can actually use.
 </p>
 
-I build ML systems that connect research ideas with usable software: from data and model training to inference and deployment. Lately, I've been working on multimodal product understanding and tools for AI-assisted development.
+<p align="center">
+  <a href="#things-ive-built">Things I've built</a> &nbsp;·&nbsp;
+  <a href="#toolbox">Toolbox</a> &nbsp;·&nbsp;
+  <a href="https://github.com/PaVeLlLlLX?tab=repositories">All repositories ↗</a>
+</p>
 
-## Selected work
+## Things I've built
 
-### [Ozon E-CUP 2026 · Product card quality](https://github.com/PaVeLlLlLX/ozon-tech-ecup-2026)
+A few public experiments, each a different kind of puzzle:
 
-A multimodal solution that checks whether a product belongs to its stated category using its title, description, and photos. Built around a Qwen3-VL model with LoRA adapters and category-specific decision rules.
+- **[Agent Panel](https://github.com/PaVeLlLlLX/agent-panel)** — one VS Code space for Claude Code and Codex, with a review loop and local history.
+- **[Ozon E-CUP 2026](https://github.com/PaVeLlLlLX/ozon-tech-ecup-2026)** — a vision-language approach to checking product cards against their categories.
+- **[AI Comics Converter](https://github.com/PaVeLlLlLX/TE-AI-Hack-bebryata)** — a multi-agent prototype that turns dense documents into comics.
 
-`multimodal ML` · `vision-language models` · `LoRA` · `Python`
-
-### [Agent Panel · Claude Code + Codex in VS Code](https://github.com/PaVeLlLlLX/agent-panel)
-
-A VS Code extension that brings two coding agents into one conversation. It includes a review loop, permission requests, session recovery, and a local activity log.
-
-`VS Code extension` · `JavaScript` · `developer tools`
-
-### [Ozon Tech E-CUP 2025 · Counterfeit detection](https://github.com/PaVeLlLlLX/Ozon-Tech-E-Cup-bebryata)
-
-An end-to-end classification pipeline that combines tabular data, product text, and images to detect counterfeit goods. Packaged with Docker for reproducible inference.
-
-`multimodal ML` · `classification` · `Docker`
-
-### [AI Comics Converter · TE AI Hack](https://github.com/PaVeLlLlLX/TE-AI-Hack-bebryata)
-
-A hackathon prototype that turns long documents and scans into comics. Specialized agents handle OCR, scene planning, image generation, and page assembly.
-
-`multi-agent systems` · `OCR` · `Streamlit` · `Python`
-
-More ML work: [predicting future transaction categories with an FT-Transformer](https://github.com/PaVeLlLlLX/alfa-predict-next-transactions).
+Also: [multimodal counterfeit detection](https://github.com/PaVeLlLlLX/Ozon-Tech-E-Cup-bebryata) · [transaction category prediction](https://github.com/PaVeLlLlLX/alfa-predict-next-transactions).
 
 ## Toolbox
 
-| Area | Tools |
-| --- | --- |
-| ML & data | Python · PyTorch · Hugging Face · scikit-learn · pandas · OpenCV |
-| Applications | FastAPI · Streamlit · JavaScript |
-| Delivery | Docker · Git · Linux · MLflow · PostgreSQL |
+<p align="center">
+  <img src="assets/toolkit.png" width="100%" alt="Modeling: PyTorch, Transformers, Hugging Face, scikit-learn, OpenCV, NumPy. Data: pandas, SQL, PostgreSQL, MySQL, MongoDB, Jupyter. Interfaces: FastAPI, Flask, Streamlit, JavaScript, VS Code Extension API. Delivery: Docker, Kubernetes, MLflow, Redis, Git." />
+</p>
 
 <p align="center">
-  <img src="assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution history" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/signal.png" />
+    <img src="assets/signal.gif" width="100%" alt="Always experimenting: data to models to something useful; animated connected particles" />
+  </picture>
 </p>
