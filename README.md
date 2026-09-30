@@ -1,11 +1,58 @@
-# Hi 👋, I'm Pavel Ivankov
+<p align="center">
+  <img src="assets/profile-banner.svg" width="100%" alt="Pavel Ivankov — Machine Learning Engineer" />
+</p>
 
-### Machine Learning Engineer
+<h1 align="center">Hi, I'm Pavel 👋</h1>
 
-- 💬 **Machine Learning Engineer with over two years of experience creating end-to-end solutions in Computer Vision and NLP.
-ML hackathon winner. Ready to solve complex problems with measurable impact.**
+<p align="center">
+  <strong>Machine Learning Engineer at Alfa-Bank</strong><br />
+  Multimodal ML · Computer Vision · NLP
+</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/bash" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/fastapi" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flask" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flask" alt="flask" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/huggingface" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kubernetes" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matplotlib" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mlflow" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="mlflow" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/opencv" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=opencv" alt="opencv" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/redis" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=redis" alt="redis" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/seaborn" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/streamlit" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/> </a></p>
+<p align="center">
+  <a href="#selected-work">Selected work</a> ·
+  <a href="#toolbox">Toolbox</a> ·
+  <a href="https://github.com/PaVeLlLlLX?tab=repositories">All repositories</a>
+</p>
 
-![Snake animation](https://raw.githubusercontent.com/PaVeLlLlLX/PaVeLlLlLX/main/assets/github-contribution-grid-snake.svg)
+I build ML systems that connect research ideas with usable software: from data and model training to inference and deployment. Lately, I've been working on multimodal product understanding and tools for AI-assisted development.
+
+## Selected work
+
+### [Ozon E-CUP 2026 · Product card quality](https://github.com/PaVeLlLlLX/ozon-tech-ecup-2026)
+
+A multimodal solution that checks whether a product belongs to its stated category using its title, description, and photos. Built around a Qwen3-VL model with LoRA adapters and category-specific decision rules.
+
+`multimodal ML` · `vision-language models` · `LoRA` · `Python`
+
+### [Agent Panel · Claude Code + Codex in VS Code](https://github.com/PaVeLlLlLX/agent-panel)
+
+A VS Code extension that brings two coding agents into one conversation. It includes a review loop, permission requests, session recovery, and a local activity log.
+
+`VS Code extension` · `JavaScript` · `developer tools`
+
+### [Ozon Tech E-CUP 2025 · Counterfeit detection](https://github.com/PaVeLlLlLX/Ozon-Tech-E-Cup-bebryata)
+
+An end-to-end classification pipeline that combines tabular data, product text, and images to detect counterfeit goods. Packaged with Docker for reproducible inference.
+
+`multimodal ML` · `classification` · `Docker`
+
+### [AI Comics Converter · TE AI Hack](https://github.com/PaVeLlLlLX/TE-AI-Hack-bebryata)
+
+A hackathon prototype that turns long documents and scans into comics. Specialized agents handle OCR, scene planning, image generation, and page assembly.
+
+`multi-agent systems` · `OCR` · `Streamlit` · `Python`
+
+More ML work: [predicting future transaction categories with an FT-Transformer](https://github.com/PaVeLlLlLX/alfa-predict-next-transactions).
+
+## Toolbox
+
+| Area | Tools |
+| --- | --- |
+| ML & data | Python · PyTorch · Hugging Face · scikit-learn · pandas · OpenCV |
+| Applications | FastAPI · Streamlit · JavaScript |
+| Delivery | Docker · Git · Linux · MLflow · PostgreSQL |
+
+<p align="center">
+  <img src="assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution history" />
+</p>
