@@ -1,41 +1,21 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero.png" />
-    <img src="assets/hero.gif" width="100%" alt="Pavel Ivankov — data science, ML systems, and side projects; an animated field of connected particles" />
-  </picture>
-</p>
+Data scientist. Здесь — открытые проекты: решения соревнований и инструменты.
 
-<p align="center">
-  <strong>Data scientist who likes building the whole thing.</strong><br />
-  I enjoy the space between exploring messy data, training a model, and making something people can actually use.
-</p>
+### Мультимодальные модели
 
-<p align="center">
-  <a href="https://pavelllllx.github.io/PaVeLlLlLX/"><strong>Interactive site ↗</strong></a> &nbsp;·&nbsp;
-  <a href="#things-ive-built">Things I've built</a> &nbsp;·&nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp;·&nbsp;
-  <a href="https://github.com/PaVeLlLlLX?tab=repositories">All repositories ↗</a>
-</p>
+- [ozon-tech-ecup-2026](https://github.com/PaVeLlLlLX/ozon-tech-ecup-2026) — соответствие товара заявленной категории по тексту и фото: Qwen3-VL-4B с LoRA, средний F1 0,917 на публичной части лидерборда Ozon E-CUP 2026.
+- [Ozon-Tech-E-Cup-bebryata](https://github.com/PaVeLlLlLX/Ozon-Tech-E-Cup-bebryata) — детекция контрафакта по табличным признакам, тексту и фото товара, Ozon E-CUP 2025.
 
-## Things I've built
+### Табличные данные
 
-A few public experiments, each a different kind of puzzle:
+- [alfa-predict-next-transactions](https://github.com/PaVeLlLlLX/alfa-predict-next-transactions) — категории трат (MCC), которые появятся у клиента в следующем периоде: FT-Transformer на признаках из истории транзакций.
+- [aidao-hack](https://github.com/PaVeLlLlLX/aidao-hack) — подбор параметров LDPC-кодов для коррекции ошибок в квантовом распределении ключей, олимпиада AIDAO.
 
-- **[Agent Panel](https://github.com/PaVeLlLlLX/agent-panel)** — one VS Code space for Claude Code and Codex, with a review loop and local history.
-- **[Ozon E-CUP 2026](https://github.com/PaVeLlLlLX/ozon-tech-ecup-2026)** — a vision-language approach to checking product cards against their categories.
-- **[AI Comics Converter](https://github.com/PaVeLlLlLX/TE-AI-Hack-bebryata)** — a multi-agent prototype that turns dense documents into comics.
+### LLM и агенты
 
-Also: [multimodal counterfeit detection](https://github.com/PaVeLlLlLX/Ozon-Tech-E-Cup-bebryata) · [transaction category prediction](https://github.com/PaVeLlLlLX/alfa-predict-next-transactions).
+- [agent-panel](https://github.com/PaVeLlLlLX/agent-panel) — расширение VS Code: Claude Code, Codex и Gemini в одной ленте, Codex и Gemini проверяют работу Claude.
+- [TE-AI-Hack-bebryata](https://github.com/PaVeLlLlLX/TE-AI-Hack-bebryata) — прототип мультиагентной системы: многостраничный документ превращается в комикс, сценарий пишет GigaChat, кадры рисует Kandinsky.
 
-## Toolbox
+### Разработка
 
-<p align="center">
-  <img src="assets/toolkit.png" width="100%" alt="Modeling: PyTorch, Transformers, Hugging Face, scikit-learn, OpenCV, NumPy. Data: pandas, SQL, PostgreSQL, MySQL, MongoDB, Jupyter. Interfaces: FastAPI, Flask, Streamlit, JavaScript, VS Code Extension API. Delivery: Docker, Kubernetes, MLflow, Redis, Git." />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/signal.png" />
-    <img src="assets/signal.gif" width="100%" alt="Always experimenting: data to models to something useful; animated connected particles" />
-  </picture>
-</p>
+- [friends-auction](https://github.com/PaVeLlLlLX/friends-auction) — Telegram Mini App для аукциона личных вещей среди знакомых, в разработке.
+- [SMP](https://github.com/PaVeLlLlLX/SMP) — персистентные структуры данных на C++ (метод Fat Node): вектор, список, хеш-таблица.
